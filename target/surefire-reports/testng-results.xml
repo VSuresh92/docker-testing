@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium-Docker-Grid-Testing" duration-ms="9298" started-at="2021-11-26T18:42:37Z" finished-at="2021-11-26T18:42:46Z">
+    <groups>
+    </groups>
+    <test name="Sample-Test" duration-ms="9298" started-at="2021-11-26T18:42:37Z" finished-at="2021-11-26T18:42:46Z">
+      <class name="com.grid.SampleTest">
+        <test-method status="PASS" signature="samplefun()[pri:0, instance:com.grid.SampleTest@5b464ce8]" name="samplefun" duration-ms="9279" started-at="2021-11-26T18:42:37Z" finished-at="2021-11-26T18:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplefun -->
+      </class> <!-- com.grid.SampleTest -->
+    </test> <!-- Sample-Test -->
+  </suite> <!-- Selenium-Docker-Grid-Testing -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Selenium-Docker-Grid-Testing" parallel="tests"
+       verbose="2">
+    <test name="Chrome-Test-1">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.grid.ChromeTest"/>
+        </classes>
+    </test>
+    <test name="Chrome-Test-2">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.grid.ChromeTest1"/>
+        </classes>
+    </test>
+    <test name="Firefox-Test">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.grid.FirefoxTest"/>
+        </classes>
+    </test><!-- Test -->
+</suite> <!-- Suite -->
