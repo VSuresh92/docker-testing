@@ -15,7 +15,7 @@ public class SampleTest {
 	public void samplefun() throws Exception {
 
 		System.out.println("-----Hi Dude----");
-		String path = System.getProperty("user.dir") + "/reports/";
+		String path = "C:\\Users\\Suresh Velumoni\\Projects\\docker-testing\\reports\\";
 		long time = System.currentTimeMillis();
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
@@ -26,7 +26,7 @@ public class SampleTest {
 
 		System.out.println("Title of the page :" + driver.getTitle());
 
-		takeSnapShot(driver, path + "/test_ + " + time + ".jpg");
+		takeSnapShot(driver, path + "test_ + " + time + ".jpg");
 
 		Thread.sleep(1000);
 
