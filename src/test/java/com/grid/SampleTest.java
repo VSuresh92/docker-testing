@@ -14,7 +14,7 @@ public class SampleTest {
 	@Test
 	public void samplefun() throws Exception {
 
-		System.out.println("Hi Dude");
+		System.out.println("***Hi Dude***");
 		
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
