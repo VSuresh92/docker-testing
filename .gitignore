@@ -135,8 +135,8 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
-docker-testing\test-output/
-docker-testing\reports/
+test-output/
+reports/
 
 ### Windows ###
 # Windows thumbnail cache files
