@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Selenium-Docker-Grid-Testing" duration-ms="20879" started-at="2021-11-27T07:32:09Z" finished-at="2021-11-27T07:32:30Z">
+  <suite name="Selenium-Docker-Grid-Testing" duration-ms="13218" started-at="2021-11-27T07:45:22Z" finished-at="2021-11-27T07:45:35Z">
     <groups>
     </groups>
-    <test name="Sample-Test" duration-ms="20879" started-at="2021-11-27T07:32:09Z" finished-at="2021-11-27T07:32:30Z">
+    <test name="Sample-Test" duration-ms="13218" started-at="2021-11-27T07:45:22Z" finished-at="2021-11-27T07:45:35Z">
       <class name="com.grid.SampleTest">
-        <test-method status="PASS" signature="samplefun()[pri:0, instance:com.grid.SampleTest@475530b9]" name="samplefun" duration-ms="20848" started-at="2021-11-27T07:32:09Z" finished-at="2021-11-27T07:32:30Z">
+        <test-method status="PASS" signature="samplefun()[pri:0, instance:com.grid.SampleTest@475530b9]" name="samplefun" duration-ms="13202" started-at="2021-11-27T07:45:22Z" finished-at="2021-11-27T07:45:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- samplefun -->
