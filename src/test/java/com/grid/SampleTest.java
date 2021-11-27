@@ -14,8 +14,9 @@ public class SampleTest {
 	@Test
 	public void samplefun() throws Exception {
 
-		System.out.println("***Hi Dude***");
-		
+		System.out.println("-----Hi Dude----");
+
+		long time = System.currentTimeMillis();
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -25,7 +26,7 @@ public class SampleTest {
 
 		System.out.println("Title of the page :" + driver.getTitle());
 
-		takeSnapShot(driver, "D://test1.jpg");
+		takeSnapShot(driver, "./reports/test_ + " + time + ".jpg");
 
 		Thread.sleep(1000);
 
