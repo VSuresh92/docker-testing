@@ -19,7 +19,7 @@ public class SampleTest {
 
 		String path = dir + "\\reports\\";
 		long time = System.currentTimeMillis();
-		System.setProperty("webdriver.chrome.driver", dir + "\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", dir + "/drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		Thread.sleep(1000);
