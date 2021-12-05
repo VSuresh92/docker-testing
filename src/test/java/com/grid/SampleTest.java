@@ -15,9 +15,11 @@ public class SampleTest {
 	public void samplefun() throws Exception {
 
 		System.out.println("-----Hi Dude----");
-		String path = "C:\\Users\\Suresh Velumoni\\Projects\\docker-testing\\reports\\";
+		String dir = System.getProperty("user.dir");
+
+		String path = dir + "\\reports\\";
 		long time = System.currentTimeMillis();
-		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", dir + "\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		Thread.sleep(1000);
